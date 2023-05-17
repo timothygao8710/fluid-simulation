@@ -9,7 +9,7 @@
 Video
 
 # Dependencies:
-- numpy==1.22.4 &rarr; Fast math and basic operations
+- numpy==1.22.4 &rarr; Numpy array and basic operations
 - matplotlib==3.7.1 &rarr; Generating vector field plot and writing animation from frames
 - tqdm==4.36.0 &rarr; Displaying a progress bar
 - numba==0.53.1 &rarr; Just-in-time compiler for Python that speeds up [execution time](https://www.youtube.com/watch?v=x58W9A2lnQc)
