@@ -1,4 +1,4 @@
-# fluid-simulation
+[![Fluid Simulation Demo](http://img.youtube.com/vi/IT1tAGbmo7s/0.jpg)](http://www.youtube.com/watch?v=IT1tAGbmo7s "Demo")
 
 # Dependencies:
 - numpy==1.22.4 &rarr;
