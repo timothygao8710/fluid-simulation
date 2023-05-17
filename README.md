@@ -1,10 +1,8 @@
-NOTE TO SELF: Upload project overview
-
 # Demo Video
 
 [![Fluid Simulation Demo](https://img.youtube.com/vi/IT1tAGbmo7s/0.jpg)](http://www.youtube.com/watch?v=IT1tAGbmo7s "Demo")
 
-[Abstract] | Learn to build this | [More Demos](https://github.com/timothygao8710/fluid-simulation/tree/main/Demos)
+[Abstract](https://docs.google.com/document/d/1pzqSDQZk3UjY1u-vFIclgG8GAbaWim4plZKhYmruXnk/edit?usp=sharing) | Learn to build this | [More Demos](https://github.com/timothygao8710/fluid-simulation/tree/main/Demos)
 
 # Dependencies:
 - numpy==1.22.4 &rarr;
