@@ -1,4 +1,8 @@
-# fluid-simulation
+# Demo Video
+
+[![Fluid Simulation Demo](https://img.youtube.com/vi/IT1tAGbmo7s/0.jpg)](http://www.youtube.com/watch?v=IT1tAGbmo7s "Demo")
+
+[Abstract](https://docs.google.com/document/d/1pzqSDQZk3UjY1u-vFIclgG8GAbaWim4plZKhYmruXnk/edit?usp=sharing) | Learn to build this | [More Demos](https://github.com/timothygao8710/fluid-simulation/tree/main/Demos)
 
 # Dependencies:
 - numpy==1.22.4 &rarr;
@@ -6,8 +10,6 @@
 - tqdm==4.36.0 &rarr; Displaying a progress bar
 - numba==0.53.1 &rarr; Just-in-time compiler for Python that speeds up [execution time](https://www.youtube.com/watch?v=x58W9A2lnQc)
 - ipython==8.13.2 &rarr; "clear_output from IPython.display" used to clear output from notebook cell
-
-# Demos:
 
 # How to use:
 
