@@ -2,7 +2,13 @@
 
 [![Fluid Simulation Demo](https://img.youtube.com/vi/IT1tAGbmo7s/0.jpg)](http://www.youtube.com/watch?v=IT1tAGbmo7s "Demo")
 
-[Abstract](https://docs.google.com/document/d/1pzqSDQZk3UjY1u-vFIclgG8GAbaWim4plZKhYmruXnk/edit?usp=sharing) | [Slides](https://docs.google.com/presentation/d/1TGygrkTte1WPdamOsbPzJm_g6-6Z6zAYX9Hz2j-tGlI) | [More Demos](https://github.com/timothygao8710/fluid-simulation/tree/main/Demos)
+In this project, we develop a digital program to simulate and animate Newtonian fluid flow utilizing computational methods outlined in Jos Stam’s 2003 paper “Real-Time Fluid Simulation for Games”. Users can customize settings or add custom components to the simulation engine to achieve desired effects like gravity, toroidal boundaries, and wind tunnel. The simulation can be visualized as a playable .mp4 file. 
+
+To characterize the fluid, our simulation engine utilizes three NxN grids: dens, U, and V. These store the density of fluids in each grid cell, a horizontal velocity component, and a vertical velocity component, respectively. The fluid dynamics solver calculates how these three arrays evolve over discrete time frames as the fluid “flows,” while obeying the Naiver-Stokes equations which describe the real-life physics of Newtonian Fluids.
+
+At each time step, the density grid values are mapped to a linear colormap to generate frames that are then collated together to create the animation. The U and V grids define the vector field that the fluid flows through. Four functions are core to the solver, implementable in 50 lines using just Python’s Numpy and Math libraries. They are: add force, diffusion, advection, and projection. Add force accounts for the external forces term in Naiver-Stokes. Diffusion accounts for the tendency of fluid particles to spread out. Advection accounts for the movement of particles and their momentum along the vector field. Projection is used to replace the vector field with its divergence-free component, to ensure compliance with the incompressibility equation of Naiver-Stokes.
+
+[Slides](https://docs.google.com/presentation/d/1TGygrkTte1WPdamOsbPzJm_g6-6Z6zAYX9Hz2j-tGlI) | [More Demos](https://github.com/timothygao8710/fluid-simulation/tree/main/Demos)
 
 # Learn to Build This:
 
